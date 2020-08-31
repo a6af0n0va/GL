@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QApplication, QOpenGLWidget
-
+#ЭТОКВАДРАТИГ
 class OGLQUAD(QOpenGLWidget):
 	def initializeGL(self):
 		pass
