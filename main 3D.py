@@ -4,7 +4,17 @@ import OpenGL.GL as gl
 class OGLQUAD(QOpenGLWidget):
 	def __init__(self):
 		super().__init__()
-		
+		#необходимо добавить переменные:
+		#вращение относительно х
+		#вращение относительно у
+		#смещение координат
+
+	#необходимо обработать событие mousePressEvent
+		#запомним точку, где была нажата мышь
+
+	#необходимо обработать событие mouseMoveEvent
+		#рассчитаем новые значения вращения и смещения
+
 	def initializeGL(self):
 		print("init")
 		gl.glEnable(gl.GL_DEPTH_TEST)
